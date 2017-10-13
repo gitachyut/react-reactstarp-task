@@ -1,12 +1,18 @@
 import React from 'react';
-import { Container, Row, Col, Alert,Button } from 'reactstrap';
+import { Container, Row, Col, Badge,Button, Progress,Alert} from 'reactstrap';
 export default class App extends React.Component {
   render() {
     return (
+
       <Container>
+         <Progress value="25" />
+
         <Row>
           <Col>
-
+            <Alert color="primary">
+              This is a primary alert — check it out!
+            </Alert>
+            <Badge color="secondary">New</Badge>
             <Button color="primary">primary</Button>
           </Col>
         </Row>

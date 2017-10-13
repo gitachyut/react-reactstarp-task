@@ -31,8 +31,10 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
+    "font-awesome": "^4.7.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-transition-group": "^1.2.0",
     "reactstrap": "^4.8.0"
   },
   "scripts": {
